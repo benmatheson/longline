@@ -1,0 +1,191 @@
+a:hover {
+    color: red;
+    text-decoration: underline;
+ 
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  
+}
+
+#top {
+  background-color: #000000;
+  padding: 0px 57px 5px 5px;
+  opacity: .6;
+  float: right;
+  width: 100%;
+}
+
+.longline {
+  max-width: 100%;
+  height: 80px;
+   float: right;
+  
+}
+
+#title-area {
+  max-width:100%;
+}
+
+#title-image {
+  max-width: 100%;
+  margin-top: -140px;
+}
+
+.head {
+  font-family: 'Alfa Slab One', sans-serif;
+  color: #000000;
+  font-size: 8em;
+  font-weight: 500;
+  text-align: right;
+  padding: 80px 10px 0px 80px;
+  position: absolute;
+  max-width: 100%;
+}
+
+#byline {
+  font-family: "Crimson Text", serif;
+  font-size: 95%;
+  color: #ffffff;
+  margin:auto;
+  line-height: 100%;
+ padding: 30% 10% 0% 10%;
+  position: absolute;
+}
+
+#play{
+ 
+   font-family: "Crimson Text", serif;
+  max-width: 55%;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: right;
+  margin:auto;
+}
+.normal {
+  font-family: "Crimson Text", serif;
+  width: 55%;
+  font-size: 24px;
+  text-align: left;
+  line-height: 35px;
+  margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+#title-center {
+  font-family: 'Martel', sans-serif;
+  color: #484848;
+  font-size: 150%;
+  text-align: center;
+max-width: 80%;
+  margin:auto;
+  padding: 5% 5% 0% 5%;
+}
+
+#headtrans {
+  font-family: 'Martel', sans-serif;
+  color: #484848;
+  font-size: 99px;
+  text-align: left;
+  padding: 0px 400px 0px 0px;
+}
+
+.datimg {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.datcap {
+  text-align: left;
+  font-family: "Franklin Gothic", sans-serif;
+  font-weight: bold;
+  font-size = 4em;
+  width = 100%;
+}
+
+div.quote {
+  padding: 20px 100px 20px 100px;
+  background-color: #000000;
+  text-align: center;
+}
+
+div.right-quote {
+  float: right;
+  width: 50%;
+  padding: 10px 30px 10px 30px;
+  background-color: #000000;
+  text-align: center; 
+}
+
+div.left-quote {
+  float: left;
+  width: 25%;
+  padding: 10px 2% 2% 25%;
+  background-color: #ffffff;
+  text-align: center; 
+}
+
+.pull-left {
+  font-family: 'Martel', sans-serif;
+  color: #0000000;
+  font-size: 190%;
+  text-align: left;
+  padding: 0px 0px 0px 0px;
+}
+
+.pull {
+  font-family: 'Martel', sans-serif;
+  font-size: 180%;
+  text-align: left;
+  padding: 0px 0px 0px 0px;
+}
+
+#pull-dark {
+  color: #FFFFFF;
+}
+
+#foot {
+  font-family: "Crimson Text", serif;
+  width: 90%;
+  font-size: 16px;
+  text-align: right;
+  line-height: 35px;
+  margin-left: auto;
+    margin-right: auto;
+  font-style: italic;
+
+
+
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+
+{
+    /* For mobile phones: */
+   .normal {
+        width: 90%;
+     font-size: 4em;
+     line-height: 1.1;
+  } 
+  
+  #title-center {
+  max-width: 70%;
+  margin:auto;
+
+}
+  
+  div.left-quote {
+  float: left;
+  width: 25%;
+  padding: 10px 2% 2% 20px;
+  background-color: #ffffff;
+  text-align: center; 
+}
+};
